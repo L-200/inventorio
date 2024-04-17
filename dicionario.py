@@ -14,7 +14,7 @@ print("Venda de ", venda3_quant, venda3_nome+"s", "realizada com sucesso")
 venda4_nome = (input("qual o produto vendido? "))
 venda4_quant = int(input("quantas foram vendidas? "))
 estoque[venda4_nome] -= venda4_quant
-print("Venda de ", venda4_quant, venda4_nome+"a", " realizada com sucesso")
+print("Venda de ", venda4_quant, venda4_nome+"s", " realizada com sucesso")
 print("Estoque atualizado: maçã: ", estoque["maçã"])
 print("banana ", estoque["banana"])
 print("laranja: ", estoque["laranja"])
