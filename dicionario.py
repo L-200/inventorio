@@ -6,7 +6,7 @@ print("Venda de ", venda1_quant, venda1_nome+"s", " realizada com sucesso")
 venda2_nome = (input("qual o produto vendido? "))
 venda2_quant = int(input("quantas foram vendidas? "))
 estoque[venda2_nome] -= venda2_quant
-print("Venda de",venda2_quant, venda2_nome"s", realizada com sucesso")
+print("Venda de",venda2_quant, venda2_nome+"s", "realizada com sucesso")
 venda3_nome = (input("qual o produto vendido? "))
 venda3_quant = int(input("quantas foram vendidas? "))
 estoque[venda3_nome] -= venda3_quant
